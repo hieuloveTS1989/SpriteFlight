@@ -52,6 +52,9 @@
     <Compile Include="Assets/Scripts/PlayerController.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets/UI/UILayout.uxml" />
+  </ItemGroup>
+  <ItemGroup>
     <Reference Include="UnityEngine">
       <HintPath>/home/hieuphan/Unity/Hub/Editor/6000.3.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
       <Private>False</Private>
