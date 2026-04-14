@@ -627,6 +627,9 @@ MonoBehaviour:
   thrustForce: 8
   maxSpeed: 5
   boosterFlame: {fileID: 1487807913}
+  scoreMultiplier: 10
+  uIDocument: {fileID: 1799467286}
+  explosionEffect: {fileID: 8924040772436171138, guid: a32fddf038a6c6c678d5ae6f967f07d9, type: 3}
 --- !u!1 &740923490
 GameObject:
   m_ObjectHideFlags: 0
@@ -1660,6 +1663,61 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 667113662488631149, guid: bf8cdb04a6fbd8b4481085494d35d1ee, type: 3}
   m_PrefabInstance: {fileID: 2119725605}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1799467285
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1799467287}
+  - component: {fileID: 1799467286}
+  m_Layer: 5
+  m_Name: GameUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1799467286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1799467285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 19102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.UIElements.UIDocument
+  m_PanelSettings: {fileID: 11400000, guid: 37df2ea01453884c4ab5865a7361efe9, type: 2}
+  m_ParentUI: {fileID: 0}
+  sourceAsset: {fileID: 9197481963319205126, guid: afd9a48ef12465a928e4b7be12858c60, type: 3}
+  m_SortingOrder: 0
+  m_Position: 0
+  m_WorldSpaceSizeMode: 1
+  m_WorldSpaceWidth: 1920
+  m_WorldSpaceHeight: 1080
+  m_PivotReferenceSize: 0
+  m_Pivot: 0
+  m_WorldSpaceCollider: {fileID: 0}
+--- !u!4 &1799467287
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1799467285}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2119725605
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1784,3 +1842,4 @@ SceneRoots:
   - {fileID: 930630355}
   - {fileID: 665438371}
   - {fileID: 694181620}
+  - {fileID: 1799467287}
